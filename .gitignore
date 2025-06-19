@@ -1,0 +1,59 @@
+# ========================================
+# 📁 Python + Flask + Wav2Vec2.0 Project
+# ========================================
+
+# 🐍 Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 📦 Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# 🧪 Test / Coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache
+
+# 🔈 Audio recordings
+*.wav
+*.mp3
+*.flac
+
+# 📦 Hugging Face transformers cache
+.huggingface/
+transformers_cache/
+
+# 🧠 Model checkpoints (nếu có)
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# 📄 Logs / runtime files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# 🧪 Jupyter (nếu dùng notebook)
+.ipynb_checkpoints
+
+# 🖥️ VS Code local config
+.vscode/
+
+# 📦 Dependency lock (tuỳ bạn có dùng không)
+poetry.lock
+Pipfile.lock
+
+# 🔧 MacOS / Windows system files
+.DS_Store
+Thumbs.db
